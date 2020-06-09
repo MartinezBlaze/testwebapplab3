@@ -23,6 +23,6 @@
     echo "<td>". $row['restaurant_phone'] . "</td>";
     echo "</tr>";
   }
-  echo "</table>"
+  echo "</table>";
   sqlsrv_free_stmt($getResults); 
 ?>
